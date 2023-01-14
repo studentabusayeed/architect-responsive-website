@@ -1,0 +1,282 @@
+/* fonts awesome */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap');
+
+/* Utilities style */
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+}
+
+main {
+    margin-top: 50px;
+}
+
+/* header section style */
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 50px; */
+}
+
+.nav-item {
+    margin-right: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border: 0;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-banner img {
+    border-radius: 8px;
+    padding-top: 50px;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* Main section Style */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 50px;
+    margin-bottom: 130px;
+}
+
+.about-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 200px;
+}
+
+.about-1 img {
+    width: 180px;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.item-1 {
+    color: #727272;
+}
+
+.item-2 {
+    color: #FF900E;
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.btn-section {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border: 0;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* future section style */
+
+.future {
+    display: flex;
+    justify-content: space-around;
+    grid-column-gap: 50px;
+    margin-bottom: 100px;
+}
+
+.future-1 {
+    padding-left: 100px;
+}
+
+.future-2 {
+    position: relative;
+}
+
+.future-title-1 {
+    border-left: 4px solid #FF900E;
+    padding-left: 10px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.future-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.box-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.box-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+.future-image img {
+    width: 600px;
+    margin-top: 60px;
+}
+
+.btn-box {
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    padding: 0px 50px;
+    position: absolute;
+    left: 15%;
+    transform: translate(-50%, -60%);
+}
+
+.btn-box-1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn-box-2 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Work section style */
+.work-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.work {
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 170px;
+    height: 180px;
+    background: rgb(216, 210, 210);
+}
+
+.work:hover {
+    background: #fff;
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 130px;
+    margin-bottom: 24px;
+    margin-left: 120px;
+}
+
+.work-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.work img {
+    margin: 0 auto;
+    display: block;
+    padding-top: 15px;
+}
+
+.work-1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+}
+
+.work-2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #727272;
+    text-align: center;
+}
+
+/* Sponspors Section */
+.logo-title {
+    font-weight: 700;
+    font-size: 45px;
+}
