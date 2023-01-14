@@ -309,11 +309,69 @@ nav ul li {
     height: 35px;
 }
 
+/* Testimonial section */
+.testimonial-section {
+    padding-bottom: 100px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.testimonial {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.testimonial-section {
+    background-color: aliceblue;
+    margin-bottom: 100px;
+}
+
+.testimonial-title {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.testimonial-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #727272;
+}
+
+.tests {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.test-1 {
+    margin-bottom: -12px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.test-2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #727272;
+}
+
 /* footer section style */
+.footer {
+    margin-bottom: 100px;
+}
 
 .footer-section {
     background: #FFF4E7;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 30px 100px;
     margin-left: 100px;
     margin-right: 100px;
