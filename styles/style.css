@@ -276,7 +276,49 @@ nav ul li {
 }
 
 /* Sponspors Section */
+.logo-section {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
 .logo-title {
     font-weight: 700;
     font-size: 45px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.logo-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.logo img {
+    mix-blend-mode: luminosity;
+    width: 120px;
+    height: 35px;
+}
+
+/* footer section style */
+
+.footer-section {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 30px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
 }
